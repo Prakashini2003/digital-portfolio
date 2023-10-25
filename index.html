@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Bio</title>
+    <style>
+        body{
+            font-style: oblique;
+            margin: 0%;
+            padding: 0%;
+            background-color: rgba(250, 238, 245, 0.123);
+        }
+        header{
+            background-color: rgb(236, 16, 144);
+            color: rgba(17, 2, 11, 0.89);
+            text-align:center;
+            padding: 2rem 0;
+            position: relative;
+        }
+        .header-content h1{
+            font-size: 3.5rem;
+        }
+        .profile-picture{
+            width: 150px;
+            height: 150px;
+            border-radius: 75%;
+            object-fit: cover;
+            position: absolute;
+            top: 75px;
+            border-style: groove;
+            right: 50px;
+            margin-left: 1000px;
+        }
+        nav{
+            background-color: brown;
+            color:color-mix(in hwb increasing hue, red 50%, aqua 50);
+            text-align:left;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0px;
+            
+        }
+        nav ul li{
+            display:inline;
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: chartreuse;
+        }
+        .section-content{
+            background-color: rgb(83, 152, 221);
+            color: black;
+            padding: 0.5rem 1rem;
+            text-decoration:dotted;
+            text-align: left;
+            border-radius: 20px;
+            margin-top : 100px;
+            margin: 1rem;
+            box-shadow: 0 0 10px rgb(236, 16, 144);
+        }
+        li{
+            list-style:'*';
+        }
+        footer{
+            text-align: center;
+            padding: 1rem 0;
+            background-color: brown;
+        }
+        button{
+            position: relative;
+            width: 200px;
+            text-align: center;
+            margin: 20px 10px;
+            font-weight: bold;
+            border: 2px solid #3eff37;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            overflow: hidden;
+
+        }
+        span{
+            background-color: #3eff37;
+            height: 100%;
+            width: 0%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: 0.5s;
+        }
+        button:hover sp{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   
+      <header>
+        <div class="header-content">
+        <div class="image"></div>
+        <img src="pic1.jpg" alt="your profile picture" class="profile-picture">
+        </div>
+        <h1>Hello!</h1><br>
+        <h4><bold>I'm Prakashini</bold></h4>
+        </div>
+    </header>
+    <nav>
+    <ul>
+        <li><h1>Portfolio</h1></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Arts">Arts</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#Certificate">Certificate</a></li>
+        <li><a href="#Resume">Resume</a></li>
+    </ul>
+    </nav>  <section id="About">
+        <div class="section-content">
+            <h2>About me</h2>
+                <p >My name is M.Prakashini.</p> 
+                <p>I am studying in 3yr Bsc Compter Science in S.T.Hindu College</p>
+                <p>I like Drawing</p>
+        </div>
+    </section>
+
+    <section id="Arts">
+        <div class="section-content">
+            <h2>My Arts</h2>
+            <img src="aaa.jpg" width="200px" height="200px">
+            <img src="bbb.jpg" width="200px" height="200px">
+            <img src="ccc.jpg" width="200px" height="200px">
+            <img src="ddd.jpg" width="200px" height="200px">
+            <p>These above are my Drawings</p>
+
+        </div>
+    </section>
+    
+    <section id="Contact" >
+        <div class="section-content" >
+        <h2>My Contact details</h2>
+        <p>My contact number is <mark></mark><i>9600549166</i></mark></p><br><p>My Email is<bold><i> prakashiniprakashini@gmail.com</i></bold></p>
+    </div>
+    </section>
+    <section id="Skills">
+        <div class="section-content">
+        <h2>Skills and Hobbies</h2>
+        <p>1.Drawing</p>
+        <p>2.Stitching </p>
+        <p>3.Compleating Ms Office</p>
+        </div>
+    </section>
+    <section id="Project">
+        <div class="section-content">
+            <h2>Project Details</h2>
+            <a href="xxx.jpg">Project 1</a><br>
+            <p>This is my first project for creating simple portfolio model</p>
+        </div>
+    </section>
+    <section id="Certificate">
+        <div class="section-content">
+            <h2>Nan Muthalvan Certificates</h2><br>
+            <a href="2.jpg">1.Begining a Web Developer</a><br>
+            <a href="1.jpg">2.Being a Front Developer</a><br>
+            <a href="3.jpg">3.Web Development Basics</a><br>
+            <a href="4.jpg">4.Developing sites </a><br>
+            <a href="5.jpg">5.Html and Css</a><br>
+            <a href="6.jpg">6.Javascript</a><br>
+            <a href="7.jpg">7.Website Testing and Deployment</a><br>
+            <a href="8.jpg">8.Task List Web page</a><br>
+            <a href="9.jpg">9.The Job Landscape"</a><br>
+            <a href="10.jpg">10.nanmuthalvan</a><br>
+            <a href="11.jpg">11.Cloud Computing uses</a><br><br>
+            <h3>Final Certificate</h3><br>
+            <a href="last.jpg">Foundation in Coding Program</a>
+        </div>
+    </section>
+    <section id="Resume">
+        <div class="section-content">
+            <h1>Resume</h1><br>
+            <script>
+                function welcome(){
+                    window.open("resume.png")
+                }
+            </script>
+        <body>
+            <button onclick="welcome()" type="button"><span></span>Open Resume</button>
+        </body>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 prakashini</p>
+    </footer>
+    <script>
+        document.querySelectorAll('a[href="#"]').forEach(anchor=>{
+            anchor.addEventListener('click',function(e){
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if(targetElement){
+                    window.scrollTo({
+                        too:targetElement.offsetTop,
+                        behavior:"smooth"
+                    });
+                }
+            });
+        });
+        </script>
+       
+</body>
+</html>
